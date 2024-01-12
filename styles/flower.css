@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-heading{
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-heading h2{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+header, #hot-deal{
+    background: rgba(229, 84, 115, 0.10);
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.banner.banner-text *{
+    margin-bottom: 32px;
+}
+.banner .banner-text h1{
+    color: #272727;
+    font-family: Lato;
+    font-size:  60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+
+p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+button{
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 15px 28px;
+    cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    background-color:#09d6b4;
+}
+.banner.banner-img{
+    width: 100%;
+    vertical-align: middle;
+}
+#featured{
+    padding: 100px 0;
+}
+.section-contant{
+    display:  flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+}
+.section-contant .flower .flower-img{
+    background-color: #E55473;
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    /* background: rgba(167, 33, 98, 0.15); */
+}
+.section-contant .flower .flower-img{
+    width: 100%;
+}
+.section-contant .flower .pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+.section-contant .flower .blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+.section-contant .flower .green{
+    background: rgba(71, 125, 17, 0.15);
+}
+.section-contant .flower p {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+}
+
+#section-data{
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    margin-left: 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+}
+.data{
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+#hot-deal .hot-deal-text{
+    max-width: 445px;
+    width: 75%;
+    align-items: center;
+
+}
+#hot-deal .hot-deal-text h2{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+#hot-deal .hot-deal-text{
+    margin-bottom: 24px;
+}
+#hot-deal .hot-deal-text h2 .important{
+    color: #E55473;
+     
+}
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
+#newsletter{
+    margin: 128px;
+}
+.newsletter-main{
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 122px 0;
+}
+#newsletter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex
+    gap:10px;
+}
+#newsletter form input{
+    flex-grow: 1;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    outline: none;
+}
